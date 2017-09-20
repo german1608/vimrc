@@ -15,7 +15,7 @@ let g:user_emmet_settings = {
       \ 'javascript' : {
       \ 'extends': 'jsx'
       \},
-      \}
+\}
 autocmd FileType html,css,javascript.jsx EmmetInstall
 
 
@@ -35,3 +35,7 @@ let g:ale_sign_columns_always = 1
 
 " CONFIGURATION FOR VIM-CLOSETAG
 let g:closetag_filenames = "*.html,*.xhtml,*.phtml,*.php,*.jsx,*.js"
+
+" CONFIGURATION FOR VIM AIRLINE
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
