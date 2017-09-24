@@ -8,3 +8,6 @@ augroup remember_folds
   autocmd BufWinLeave *.* mkview
   autocmd BufWinEnter *.* loadview
 augroup END
+
+" Avoid commenting at \n
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o

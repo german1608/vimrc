@@ -39,3 +39,5 @@ let g:closetag_filenames = "*.html,*.xhtml,*.phtml,*.php,*.jsx,*.js"
 " CONFIGURATION FOR VIM AIRLINE
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
+let g:airline_left_sep = '▶'
+let g:airline_right_sep = '◀'
