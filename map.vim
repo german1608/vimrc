@@ -5,6 +5,8 @@ nnoremap <space> za
 " MOVEMENT
 nnoremap j gj
 nnoremap k gk
+vnoremap j gj
+vnoremap k gk
 
 " move to beginning/end of line
 nnoremap B ^
@@ -21,7 +23,7 @@ nnoremap gV `[v`]
 " LEADER SHORTCUTS
 
 " jk is escape
-inoremap jk <esc>:w<CR>
+inoremap jk <esc>
 inoremap <esc> <nop>
 
 " edit vimrc/ and load vimrc bindings
