@@ -14,3 +14,4 @@ set foldlevelstart=10 " open most folds
 set foldnestmax=10    " 10 nested folds max
 set foldmethod=syntax " fold based on indent level
 set hidden            " exit buffer without loosing it
+set noswapfile        " avoid creating swap files
