@@ -52,3 +52,8 @@ nmap <c-l> :bn<cr>
 nmap <c-h> :bp<cr>
 nmap <leader>,q :bp <BAR> bd #<CR>
 nmap <leader>bl :ls<CR>
+
+" Settings for java
+noremap  <leader><f2> :!javac %<CR>
+noremap  <leader><f3> :!java %:r<CR>
+
