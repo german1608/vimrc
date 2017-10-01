@@ -57,3 +57,5 @@ nmap <leader>bl :ls<CR>
 noremap  <leader><f2> :!javac %<CR>
 noremap  <leader><f3> :!java %:r<CR>
 
+" Typing maps
+inoremap {<cr> {<cr>}<esc>O
