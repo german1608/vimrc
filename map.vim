@@ -57,5 +57,10 @@ nmap <leader>bl :ls<CR>
 noremap  <leader><f2> :!javac %<CR>
 noremap  <leader><f3> :!java %:r<CR>
 
+" Settings for c++
+noremap <leader><f4> :!g++ -std=c++11 %<cr>
+noremap <leader><f5> :!./a.out<cr>
+
+
 " Typing maps
 inoremap {<cr> {<cr>}<esc>O

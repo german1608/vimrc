@@ -45,3 +45,7 @@ let g:airline_right_sep = '◀'
 " CONFIGURATION FOR NETRW
 
 let g:netrw_list_hide = '.*\.swp$'
+
+" CONFIGURATION FOR ULTISNIPS
+
+let g:UltiSnipsUsePythonVersion = 3
