@@ -23,6 +23,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'w0rp/ale'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
+Plugin 'tomasiser/vim-code-dark'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

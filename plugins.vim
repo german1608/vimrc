@@ -1,9 +1,11 @@
 " Solarized 
 
 syntax enable " enable syntax processing
-let g:solarized_termcolors=256
-colorscheme solarized 
+" let g:solarized_termcolors=256
+" colorscheme solarized 
 set t_Co=256
+set t_ut=
+colorscheme codedark
 filetype plugin indent on " load filetype-specific syntax
 nohlsearch
 
