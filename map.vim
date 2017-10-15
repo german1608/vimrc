@@ -64,3 +64,6 @@ noremap <leader><f5> :!./a.out<cr>
 
 " Typing maps
 inoremap {<cr> {<cr>}<esc>O
+
+" Map to make substitution of visual seleted text
+vnoremap <leader>s y:%s/<c-r>"//gc<left><left><left>
