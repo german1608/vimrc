@@ -1,0 +1,25 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <cstring>
+#include <map>
+#include <cmath>
+#include <utility>
+using namespace std;
+ 
+#define FOR(i, s, m) for(int i = s; i < m; i++)
+#define pb push_back
+#define mp make_pair
+#define SORTVEC(vec) sort(vec.begin(), vec.end())
+#define mset(arr) memset(arr, 0, sizeof(arr))
+#define ri(x) scanf("%d", &x)
+#define rii(x, y) scanf("%d %d", &x, &y)
+
+
+typedef long long ll;
+typedef vector<int> vi;
+typedef pair<int, int> pii;
+
+
+int main() {
+}
