@@ -1,7 +1,4 @@
 " FOLDING
 
-augroup remember_folds
-  autocmd!
-  autocmd BufWinLeave *.* mkview
-  autocmd BufWinEnter *.* silent loadview
-augroup END
+autocmd BufNewFile *.cpp :0r ~/.vim/vimrc/samples/cpp
+autocmd BufNewFile *.cpp :w!
