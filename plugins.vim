@@ -1,11 +1,12 @@
 " Solarized 
 
 syntax enable " enable syntax processing
-" let g:solarized_termcolors=256
-" colorscheme solarized 
-set t_Co=256
-set t_ut=
-colorscheme codedark
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized 
+" set t_Co=256
+" set t_ut=
+" colorscheme codedark
 filetype plugin indent on " load filetype-specific syntax
 nohlsearch
 
@@ -31,8 +32,8 @@ set diffopt+=vertical
 
 " CONFIGURATION FOR ALE
 
-let g:ale_fixers = { 'javascript': ['eslint'] }
-let g:ale_linters = { 'javascript': ['eslint'] }
+let g:ale_fixers = { 'javascript': ['standard'] }
+let g:ale_linters = { 'javascript': ['standard'] }
 let g:ale_sign_columns_always = 1
 
 " CONFIGURATION FOR VIM-CLOSETAG
