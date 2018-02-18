@@ -25,6 +25,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'tomasiser/vim-code-dark'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'hail2u/vim-css3-syntax'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
